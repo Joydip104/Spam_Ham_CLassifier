@@ -9,8 +9,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Ensure necessary NLTK resources are available
-nltk.data.path.append("C:/Users/Joydip/nltk_data")
-nltk.download('punkt', quiet=True)
+# nltk.data.path.append("C:/Users/Joydip/nltk_data")
+nltk.download('punkt_tab', quiet=True)
 nltk.download('stopwords', quiet=True)
 
 MODEL_FILES = {
